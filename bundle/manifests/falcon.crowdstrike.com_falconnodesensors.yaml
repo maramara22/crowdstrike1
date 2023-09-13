@@ -135,6 +135,7 @@ spec:
                     description: Sets the backend to be used by the DaemonSet Sensor.
                     enum:
                     - kernel
+                    - bpf
                     type: string
                   disableCleanup:
                     default: false
